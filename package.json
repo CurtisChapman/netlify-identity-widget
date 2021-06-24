@@ -82,6 +82,7 @@
     "test": "run-s lint format-check test:unit",
     "test:unit": "jest",
     "test:unit:watch": "jest --watch",
-    "version": "run-s release changelog"
+    "version": "run-s release changelog",
+    "prepare": "npm run build"
   }
 }
